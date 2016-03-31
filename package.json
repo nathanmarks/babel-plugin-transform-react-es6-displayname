@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-react-es6-displayname",
-  "version": "1.0.0-beta1.2",
+  "version": "1.0.0-beta1.3",
   "description": "Babel transform to add the displayName property to component classes",
   "main": "index.js",
   "scripts": {
