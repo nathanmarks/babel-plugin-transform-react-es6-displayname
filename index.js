@@ -1,9 +1,10 @@
 module.exports = babelPluginTransformReactEs6ClassDisplayName;
 
-function babelPluginTransformReactEs6ClassDisplayName ({ types: t }) {
+function babelPluginTransformReactEs6ClassDisplayName (babel) {
+  var t = babel.types.t;
   return {
     visitor: {
-      ClassDeclaration (path) {
+      ClassDeclaration: function (path) {
         addDisplayName.call(path, t);
       }
     }
