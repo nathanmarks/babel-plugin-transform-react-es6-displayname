@@ -11,7 +11,10 @@ function babelPluginTransformReactEs6ClassDisplayName (babel) {
 }
 
 function addDisplayName (t) {
-  if (this.node.superClass.property.name === 'Component') {
+  if (
+    this.node.superClass.name === 'Component' ||
+    this.node.superClass.property.name === 'Component'
+  ) {
     this.insertAfter([
       t.expressionStatement(t.assignmentExpression(
         '=',
