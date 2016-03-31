@@ -1,0 +1,31 @@
+{
+  "name": "babel-transform-react-es6-class-displayname",
+  "version": "1.0.0-beta1",
+  "description": "Babel transform to add the displayName property to component classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanmarks/babel-transform-react-es6-class-displayname.git"
+  },
+  "keywords": [
+    "babel",
+    "transform",
+    "es6",
+    "classes",
+    "react",
+    "displayName"
+  ],
+  "author": "Nathan Marks <info@nathanmarks.io> (http://nathanmarks.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanmarks/babel-transform-react-es6-class-displayname/issues"
+  },
+  "homepage": "https://github.com/nathanmarks/babel-transform-react-es6-class-displayname#readme",
+  "devDependencies": {
+    "eslint": "^2.5.3"
+  },
+  "dependencies": {}
+}
