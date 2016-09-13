@@ -21,7 +21,7 @@
   "authors": [
     "Nathan Marks <info@nathanmarks.io> (http://nathanmarks.io)",
     "Dmitri Farkov <dmitri.farkov@gmail.com> (http://github.com/dmitrif)"
-  ]
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nathanmarks/babel-plugin-transform-react-es6-displayname/issues"
