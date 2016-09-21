@@ -22,7 +22,7 @@ function addDisplayName (t) {
       )
     )
   ) {
-    this.insertAfter([
+    (t.isExportNamedDeclaration(this.parentPath.node) ? this.parentPath : this).insertAfter([
       t.expressionStatement(t.assignmentExpression(
         '=',
         t.memberExpression(this.node.id, t.identifier('displayName')),
